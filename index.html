@@ -538,20 +538,74 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <h4>Zostaw Swoje Dane w Formularzu poniżej</h4>
+        <h4>Zostaw swoje dane w formularzu poniżej</h4>
         <form class="modal-input-positions">
           <label class="modal-text">
             Imie
-
             <input class="input-modal" type="text" name="username" required />
-            <sgv class="modal-icon">
+            <svg class="modal-icon">
               <use
-                href="/images/icons.svg#icon-smartphone"
+                href="./images/icons.svg#icon-Vectorname"
                 height="18"
                 width="18"
               ></use>
-            </sgv>
+            </svg>
           </label>
+          <label class="modal-text">
+            Telefon
+            <input
+              class="input-modal"
+              type="text"
+              name="phone-number"
+              required
+            />
+            <svg class="modal-icon">
+              <use
+                href="./images/icons.svg#icon-Vectorphone1"
+                height="18"
+                width="18"
+              ></use>
+            </svg>
+          </label>
+          <label class="modal-text">
+            Email
+            <input class="input-modal" type="text" name="email" required />
+            <svg class="modal-icon">
+              <use
+                href="./images/icons.svg#icon-Vectormail"
+                height="18"
+                width="18"
+              ></use>
+            </svg>
+          </label>
+          <label class="modal-text">
+            Komentarz
+            <textarea
+              class="textarea-modal"
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
+          <label class="agrement">
+            <span>
+              Oświadczam iż akcpetuje
+              <span><a class="blue-text" href="#">Regulamin</a></span>
+              i
+              <span
+                ><a class="blue-text" href="#">Polityke Prywatności</a></span
+              >
+            </span>
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="user-agrement"
+              required
+            />
+          </label>
+          <button class="submit-btn" type="submit">Wyślij</button>
         </form>
         <button type="button" class="close-btn" data-modal-close>X</button>
       </div>
