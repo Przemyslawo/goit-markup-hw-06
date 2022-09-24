@@ -683,57 +683,58 @@ li:hover .overlay {
   fill: var(--white);
   margin-right: 10px;
 }
-.newsletter-container p {
-  margin: 72px 0 20px 0;
+.footer-newsletter {
+  margin-left: 78px;
+}
+.footer-header {
   font-weight: 700;
+  line-height: 1.14;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  color: var(--adress-color);
   text-transform: uppercase;
-  color: #ffffff;
+  margin-bottom: 20px;
 }
-.newsletter-form {
-  display: flex;
-  gap: 20px;
-}
-
-.newsletter-form button {
+.form-newsletter {
   display: flex;
   align-items: center;
-  text-align: center;
-  justify-content: center;
-  gap: 24px;
-  font-weight: 700;
+}
+.input-newsletter {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--background-color);
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  fill: #ffffff;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 15px 16px;
+  margin-right: 12px;
+}
+.button-newsletter {
   width: 200px;
   height: 50px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  fill: var(--adress-color);
+  color: var(--adress-color);
   border-radius: 4px;
+  margin-left: 12px;
+  padding: 10px;
   border: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
-.newsletter-form input {
-  padding-left: 16px;
-  width: 358px;
-  height: 50px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 125%;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background-color: rgba(47, 48, 58, 1);
-}
-.newsletter-submit-icon {
-  width: 24px;
-  height: 24px;
+
+.icon-button-newsletter {
+  margin-left: 24px;
 }
 
 /*--FORMULARZ---------------*/

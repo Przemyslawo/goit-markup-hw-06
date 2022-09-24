@@ -533,22 +533,25 @@
               </li>
             </ul>
           </div>
-        </div>
-        <div class="newsletter-container">
-          <p>ZAPISZ SIĘ DO NEWSLETTERA</p>
-          <form class="newsletter-form">
-            <input type="text" placehold.er="E-mail" name="email" required />
-            <button type="submit">
-              <span>Zapisz SIĘ</span>
-              <svg class="newsletter-submit-icon">
-                <use
-                  href="./images/icons.svg#icon-iconsend"
-                  height="24"
-                  width="24"
-                ></use>
-              </svg>
-            </button>
-          </form>
+          <div class="footer-newsletter">
+            <h4 class="footer-header">Zapisz się do newslettera</h4>
+            <form name="newsletter" autocomplete="on" class="form-newsletter">
+              <label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  class="input-newsletter"
+                />
+              </label>
+              <button type="submit" class="button-newsletter">
+                Zapisz się
+                <svg width="24" height="24" class="icon-button-newsletter">
+                  <use xlink:href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
