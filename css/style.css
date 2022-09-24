@@ -683,8 +683,61 @@ li:hover .overlay {
   fill: var(--white);
   margin-right: 10px;
 }
+.newsletter-container p {
+  margin: 72px 0 20px 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.newsletter-form {
+  display: flex;
+  gap: 20px;
+}
+
+.newsletter-form button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  fill: #ffffff;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.newsletter-form input {
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: rgba(47, 48, 58, 1);
+}
+.newsletter-submit-icon {
+  width: 24px;
+  height: 24px;
+}
+
 /*--FORMULARZ---------------*/
-backdrop {
+.backdrop {
   position: fixed;
   left: 0;
   top: 0;
