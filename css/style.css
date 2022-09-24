@@ -697,14 +697,16 @@ backdrop {
   visibility: visible;
 }
 .modal {
-  transition-property: visibility, opacity, transform;
-  transition-duration: 2s;
-  transform: translateX(-50%) translateY(-50%) scale(1) rotate(720deg)
-    skew(0deg, 0deg);
-  opacity: 1;
-  visibility: visible;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  min-height: 581px;
+  background-color: #fff;
   display: block;
 }
+
 .close-btn {
   position: absolute;
   top: 8px;
