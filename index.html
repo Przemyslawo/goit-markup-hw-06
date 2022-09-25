@@ -554,8 +554,10 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <h4>Zostaw swoje dane w formularzu poniżej</h4>
-        <form class="modal-input-positions">
+        <div class="header-modal-box">
+          Zostaw swoje dane w formularzu poniżej
+        </div>
+        <form class="modal-positions">
           <label class="modal-text">
             Imie
             <input class="input-modal" type="text" name="username" required />
@@ -597,7 +599,7 @@
           <label class="modal-text">
             Komentarz
             <textarea
-              class="comment-modal"
+              class="textarea-modal"
               name="comment"
               id="comment"
               cols="30"
@@ -605,16 +607,21 @@
               placeholder="Wprowadź tekst"
             ></textarea>
           </label>
-          <label class="acept">
+          <label class="agrement">
             <span>
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="user-agrement"
+                required
+              />
               Oświadczam iż akcpetuje
               <span><a class="blue-text" href="#">Regulamin</a></span>
               i
               <span
-                ><a class="blue-text" href="#">Polityke Prywatności</a></span
-              >
+                ><a class="blue-text" href="#">Polityke Prywatności</a>
+              </span>
             </span>
-            <input class="box" type="checkbox" name="user-agrement" required />
           </label>
           <button class="submit-btn" type="submit">Wyślij</button>
         </form>
