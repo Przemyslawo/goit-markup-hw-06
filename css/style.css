@@ -787,8 +787,9 @@ h4 {
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
-  letter-spacing: 0.03em;
+
   color: #757575;
+  justify-content: space-between;
 }
 .blue-text {
   color: #2196f3;
@@ -830,6 +831,7 @@ h4 {
   opacity: 0;
 }
 .submit-btn {
+  margin: auto;
   margin-top: 20px;
   width: 200px;
   height: 50px;
