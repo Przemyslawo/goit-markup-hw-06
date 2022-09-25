@@ -726,7 +726,7 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding: 12px 40px 0 40px;
 }
 .modal-text {
   margin-bottom: 10px;
@@ -740,7 +740,6 @@ h4 {
   position: relative;
 }
 .input-modal {
-  padding-left: 42px;
   display: inline-block;
   margin-top: 4px;
   width: 448px;
